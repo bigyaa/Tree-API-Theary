@@ -8,9 +8,24 @@
           "id": 2,
           "label": "child of root",
           "children": []
+        },
+        {
+          "id": 4,
+          "label": "child of root",
+          "children": []
         }
       ]
+    },
+    {
+      "id": 3,
+      "label": "root",
+      "children": []
+    },
+    {
+      "id": 5,
+      "label": "root",
+      "children": []
     }
   ],
-  "lastId": 2
+  "lastId": 5
 }
