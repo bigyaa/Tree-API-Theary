@@ -1,4 +1,16 @@
 {
-  "trees": [],
-  "lastId": 0
+  "trees": [
+    {
+      "id": 1,
+      "label": "root",
+      "children": [
+        {
+          "id": 2,
+          "label": "child of root",
+          "children": []
+        }
+      ]
+    }
+  ],
+  "lastId": 2
 }

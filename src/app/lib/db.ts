@@ -1,14 +1,14 @@
 import { Low } from 'lowdb'
 import { JSONFile } from 'lowdb/node'
 
-export type Treenode = {
+export type TreeNode = {
     id: number
     label: string
-    children: Treenode[]
+    children: TreeNode[]
 }
 
 export type Data = {
-    trees: Treenode[]
+    trees: TreeNode[]
     lastId: number
 }
 
