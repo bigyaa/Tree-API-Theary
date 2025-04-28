@@ -9,3 +9,13 @@ export function findNodeById(nodes: TreeNode[], id: number): TreeNode | null {
     }
     return null
 }
+
+export function deepCloneNode(node: TreeNode, db: { lastId: number }): TreeNode {
+    const newNode: TreeNode = {
+        id: ++db.lastId,
+        label: node.label,
+        children: node.children.map(child => deepCloneNode(child, db))
+    }
+
+    return newNode
+}

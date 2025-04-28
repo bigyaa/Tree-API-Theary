@@ -7,10 +7,33 @@
         {
           "id": 2,
           "label": "child of root",
-          "children": []
+          "children": [
+            {
+              "id": 3,
+              "label": "3rd level nesting",
+              "children": [
+                {
+                  "id": 6,
+                  "label": "3rd level nesting",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "label": "child of root",
+          "children": [
+            {
+              "id": 5,
+              "label": "3rd level nesting",
+              "children": []
+            }
+          ]
         }
       ]
     }
   ],
-  "lastId": 2
+  "lastId": 6
 }
